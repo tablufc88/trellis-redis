@@ -11,6 +11,12 @@
     pkg: php-redis
     state: present
     update_cache: true
+
+- name: Install php-redis (version specific)
+  apt:
+    pkg: php7.4-redis
+    state: present
+    update_cache: true
   notify: Restart php-fpm
 
 - name: Configure Redis
