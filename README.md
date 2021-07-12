@@ -11,7 +11,7 @@ Get Started
 Add the role to the `galaxy.yml` file of Trellis :
 ```yaml
 - name: trellis-redis
-  src: im_mortal.trellis_redis
+  src: e-vance.trellis_redis
   version: 0.2.6
 ```
 
