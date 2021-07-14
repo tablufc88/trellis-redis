@@ -26,8 +26,8 @@ redis_maxclients: 10000
 
 # Max memory values
 redis_maxmemory: 2gb
-redis_maxmemory_policy: noeviction
-redis_maxmemory_samples: 3
+redis_maxmemory_policy: volatile-ttl
+redis_maxmemory_samples: 5
 
 redis_appendonly: 'no'
 redis_appendfilename: appendonly.aof
