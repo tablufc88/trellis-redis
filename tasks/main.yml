@@ -12,9 +12,9 @@
     state: present
     update_cache: true
 
-- name: Install php-redis (version specific)
+- name: Install php{{ php_version }}-redis
   apt:
-    pkg: php7.4-redis
+    pkg: php{{ php_version }}-redis
     state: present
     update_cache: true
   notify: Restart php-fpm
