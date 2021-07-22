@@ -13,7 +13,7 @@ Add the role to the `galaxy.yml` file of Trellis :
 - name: trellis-redis
   src: https://github.com/E-VANCE/trellis-redis
   type: git
-  version: 0.3
+  version: 0.3.0
 ```
 
 Run `ansible-galaxy install -r galaxy.yml` to install the new role.<br>
