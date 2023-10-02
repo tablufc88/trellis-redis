@@ -6,12 +6,6 @@
     update_cache: true
   notify: Start Redis
 
-- name: Install php-redis
-  apt:
-    pkg: php-redis
-    state: present
-    update_cache: true
-
 - name: Install php{{ php_version }}-redis
   apt:
     pkg: php{{ php_version }}-redis
